@@ -13,7 +13,7 @@ export default function FeaturedMatches() {
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold mb-2">Featured Country Matches</h2>
         <p className="text-muted-foreground">
-          Don't miss these exciting upcoming and live matches
+          Don&apos;t miss these exciting upcoming and live matches
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-6">

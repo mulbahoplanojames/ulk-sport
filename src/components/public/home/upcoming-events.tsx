@@ -48,7 +48,7 @@ export default function UpcomingEvents() {
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="space-y-3">
                   <blockquote className="text-muted-foreground italic">
-                    "{testimonial.quote}"
+                    &apos;{testimonial.quote}&apos;
                   </blockquote>
                   <div className="flex items-center space-x-3">
                     <Avatar className="h-10 w-10">

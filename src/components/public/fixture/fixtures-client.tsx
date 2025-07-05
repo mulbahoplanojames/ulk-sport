@@ -113,7 +113,8 @@ export default function FixturesClient() {
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold mb-4">Upcoming Matches</h2>
               <p className="text-muted-foreground">
-                Don't miss these exciting upcoming matches across all sports
+                Don&apos;t miss these exciting upcoming matches across all
+                sports
               </p>
             </div>
 

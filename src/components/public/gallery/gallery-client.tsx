@@ -12,15 +12,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import {
-  Camera,
-  Play,
-  Calendar,
-  Users,
-  Download,
-  Share2,
-  Heart,
-} from "lucide-react";
+import { Camera, Play, Calendar, Download, Share2, Heart } from "lucide-react";
 import Image from "next/image";
 import { photos, videos } from "@/data/gallery";
 

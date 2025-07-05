@@ -2,16 +2,7 @@
 
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
-import {
-  Calendar,
-  Camera,
-  Medal,
-  Menu,
-  Trophy,
-  User,
-  Users,
-  X,
-} from "lucide-react";
+import { Calendar, Camera, Menu, Trophy, Users, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
