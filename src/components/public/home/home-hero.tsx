@@ -30,8 +30,8 @@ export default function HomeHero() {
               className="border-white text-white hover:bg-white hover:text-blue-600 bg-transparent"
               asChild
             >
-              <Link href="/leaderboard">
-                View Leaderboard
+              <Link href="/fixtures">
+                View Fixtures
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
