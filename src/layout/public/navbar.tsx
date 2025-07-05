@@ -4,6 +4,7 @@ import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { Calendar, Camera, Menu, Trophy, Users, X } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navigation = [
@@ -17,6 +18,7 @@ const navigation = [
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathName = usePathname();
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-sm border-b sticky inset-0 z-[9999]">
@@ -38,15 +40,20 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors"
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const isActive = pathName === item.href;
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={` hover:text-blue-600 ${
+                    isActive ? "border-b-2 border-blue-700" : "text-gray-600"
+                  } dark:text-gray-300 dark:hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors`}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
             <ModeToggle />
           </div>
 

@@ -171,7 +171,7 @@ export default function SportsPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg">Register Now</Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="/leaderboard">View Rankings</Link>
+                <Link href="/fixtures">View Rankings</Link>
               </Button>
             </div>
           </div>
