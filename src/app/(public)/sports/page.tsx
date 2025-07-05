@@ -13,6 +13,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { sportsData } from "@/data/sports-data";
 import Hero from "@/components/public/hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sports Categories | ULK Sports League",
+  description:
+    "Discover all the exciting sports competitions at ULK. Explore football, basketball, volleyball, tennis, and more. See teams, rules, and stats for each sport.",
+};
 
 export default function SportsPage() {
   return (

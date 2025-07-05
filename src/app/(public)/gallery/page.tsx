@@ -3,8 +3,9 @@ import Hero from "@/components/public/hero";
 import { Card, CardContent } from "@/components/ui/card";
 import { photos, videos } from "@/data/gallery";
 import { Camera, Heart, Play, Users } from "lucide-react";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Gallery",
   description:
     "Relive the best moments from ULK Sports League. Browse our photo and video gallery capturing the excitement, passion, and achievements of the league.",

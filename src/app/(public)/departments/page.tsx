@@ -13,6 +13,13 @@ import {
 import Image from "next/image";
 import Hero from "@/components/public/hero";
 import { countries, departments } from "@/data/departments-page-data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Departments & Countries",
+  description:
+    "Discover the academic departments and international countries represented in the ULK Sports League. Explore stats, achievements, and the global diversity of our league.",
+};
 
 export default function DepartmentsPage() {
   return (

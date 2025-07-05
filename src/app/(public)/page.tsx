@@ -5,9 +5,8 @@ import LeagueTables from "@/components/public/home/league-tables";
 import SportCategories from "@/components/public/home/sports-categories";
 import StatsSection from "@/components/public/home/stats-section";
 import UpcomingEvents from "@/components/public/home/upcoming-events";
-import React from "react";
 
-export default function page() {
+export default function Homepage() {
   return (
     <section className="space-y-14">
       <HomeHero />
