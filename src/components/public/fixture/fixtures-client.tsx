@@ -143,9 +143,8 @@ export default function FixturesClient() {
                             <Image
                               src={fixture.team1Logo || "/placeholder.svg"}
                               alt={fixture.team1}
-                              width={40}
-                              height={40}
-                              className="rounded-full"
+                              width={60}
+                              height={60}
                             />
                             <span className="font-semibold text-lg">
                               {fixture.team1}
@@ -171,9 +170,8 @@ export default function FixturesClient() {
                             <Image
                               src={fixture.team2Logo || "/placeholder.svg"}
                               alt={fixture.team2}
-                              width={40}
-                              height={40}
-                              className="rounded-full"
+                              width={60}
+                              height={60}
                             />
                           </div>
                         </div>
