@@ -20,9 +20,8 @@ const navigation = [
   { name: "Sports", href: "/sports", icon: Trophy },
   { name: "Departments", href: "/departments", icon: Users },
   { name: "Fixtures", href: "/fixtures", icon: Calendar },
-  { name: "Leaderboard", href: "/leaderboard", icon: Medal },
   { name: "Gallery", href: "/gallery", icon: Camera },
-  { name: "Profile", href: "/profile", icon: User },
+  // { name: "Leaderboard", href: "/leaderboard", icon: Medal },
 ];
 
 export default function Navbar() {
