@@ -1,7 +1,8 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import InterDepartmentalLeagueTable from "./inter-departmental-league-table";
-import InternationalLeagueTable from "./international-league-table";
 import TopScorers from "./top-scorer";
+import InternationalFootballLeagueTable from "./international-football-league-table";
+import InternationalBasketballLeagueTable from "./international-basketball-league-table";
 
 export default function LeagueTables() {
   return (
@@ -21,8 +22,9 @@ export default function LeagueTables() {
           </TabsTrigger>
           <TabsTrigger value="top-scorers">Top Scorers</TabsTrigger>
         </TabsList>
-        <TabsContent value="international">
-          <InternationalLeagueTable />
+        <TabsContent value="international" className="space-y-8">
+          <InternationalFootballLeagueTable />
+          <InternationalBasketballLeagueTable />
         </TabsContent>
 
         <TabsContent value="inter-departmental">
