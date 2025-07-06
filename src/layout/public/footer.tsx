@@ -8,8 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white font-bold">
-                ULK
+              <div className="h-8 w-8  rounded-lg bg-blue-600 overflow-hidden relative ">
+                <img
+                  src="/ulk-logo.jpg"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="font-bold text-xl">Sports League</span>
             </div>
@@ -62,7 +65,7 @@ export default function Footer() {
               <li>Kigali Independent University</li>
               <li>Kigali, Rwanda</li>
               <li>sports@ulk.ac.rw</li>
-              <li>+250 788 123 456</li>
+              <li>+250 781 610 923</li>
             </ul>
           </div>
         </div>

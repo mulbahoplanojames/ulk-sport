@@ -11,7 +11,7 @@ export const internationalFootballLeague = [
     ga: 0,
     gd: 0,
     points: 0,
-    form: ["M"],
+    form: ["N"],
   },
   {
     position: 2,
@@ -24,8 +24,8 @@ export const internationalFootballLeague = [
     gf: 0,
     ga: 0,
     gd: 0,
-    points: 4,
-    form: ["M"],
+    points: 0,
+    form: ["N"],
   },
   {
     position: 3,
@@ -39,7 +39,7 @@ export const internationalFootballLeague = [
     ga: 0,
     gd: 0,
     points: 0,
-    form: ["M"],
+    form: ["N"],
   },
   {
     position: 4,
@@ -52,8 +52,8 @@ export const internationalFootballLeague = [
     gf: 0,
     ga: 0,
     gd: 0,
-    points: 10,
-    form: ["M"],
+    points: 0,
+    form: ["N"],
   },
   {
     position: 5,
@@ -67,7 +67,7 @@ export const internationalFootballLeague = [
     ga: 0,
     gd: 0,
     points: 0,
-    form: ["M"],
+    form: ["N"],
   },
   {
     position: 6,
@@ -80,8 +80,8 @@ export const internationalFootballLeague = [
     gf: 0,
     ga: 0,
     gd: 0,
-    points: 18,
-    form: ["M"],
+    points: 0,
+    form: ["N"],
   },
   {
     position: 7,
@@ -95,7 +95,7 @@ export const internationalFootballLeague = [
     ga: 0,
     gd: 0,
     points: 0,
-    form: ["M"],
+    form: ["N"],
   },
   {
     position: 8,
@@ -109,6 +109,6 @@ export const internationalFootballLeague = [
     ga: 0,
     gd: 0,
     points: 0,
-    form: ["M"],
+    form: ["N"],
   },
 ];

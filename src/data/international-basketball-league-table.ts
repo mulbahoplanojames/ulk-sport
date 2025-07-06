@@ -66,7 +66,7 @@ export const internationalBasketballLeague = [
     pointsFor: 0,
     pointsAgainst: 0,
     pointDifference: 0,
-    totalPoints: 3,
+    totalPoints: 0,
     form: ["N"],
   },
   {
