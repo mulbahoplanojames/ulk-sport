@@ -7,7 +7,7 @@ export const featuredMatches = [
     team2Logo: "/sudan.png",
     date: "Tuesday, 3:30 PM",
     venue: "ULK Stadium",
-    status: "Upcoming",
+    status: "Tomorrow",
     league: "International",
   },
   {
