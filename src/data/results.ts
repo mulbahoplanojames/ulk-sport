@@ -76,7 +76,7 @@ export const results = [
     sport: "Basketball",
     team1: "DR Congo",
     team2: "Liberia",
-    team1Logo: "/gabon.png",
+    team1Logo: "/congo.png",
     team2Logo: "/liberia.png",
     date: "July 3, 2025",
     venue: "ULK Stadium",
