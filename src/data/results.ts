@@ -2,6 +2,24 @@ export const results = [
   {
     id: 1,
     sport: "Football",
+    team1: "Comoros",
+    team2: "Sudan",
+    team1Logo: "/comoros.png",
+    team2Logo: "/sudan.png",
+    date: "Monday, June 30, 2025",
+    venue: "ULK Stadium",
+    score: "1-5",
+    status: "completed",
+    league: "International",
+    highlights: [
+      // "Goal by John Doe (15')",
+      // "Goal by Jane Smith (32')",
+      // "Goal by Mike Johnson (67')",
+    ],
+  },
+  {
+    id: 23,
+    sport: "Football",
     team1: "Chad",
     team2: "Gabon",
     team1Logo: "/chad.svg",
@@ -10,7 +28,7 @@ export const results = [
     venue: "ULK Stadium",
     score: "0-3",
     status: "completed",
-    league: "Inter-Departmental",
+    league: "International",
     highlights: [
       // "Goal by John Doe (15')",
       // "Goal by Jane Smith (32')",
@@ -19,6 +37,24 @@ export const results = [
   },
   {
     id: 2,
+    sport: "Basketball",
+    team1: "Liberia",
+    team2: "Gabon",
+    team1Logo: "/liberia.png",
+    team2Logo: "/gabon.png",
+    date: "July 8, 2025",
+    venue: "ULK Sports Complex",
+    score: "50-70",
+    status: "completed",
+    league: "International",
+    highlights: [
+      "Top scorer: South Sudan shooter (24 pts)",
+      "Best assists: South Sudan (8)",
+      // "Rebounds leader: Tom Davis (12)",
+    ],
+  },
+  {
+    id: 22,
     sport: "Basketball",
     team1: "Liberia",
     team2: "South Sudan",
@@ -35,7 +71,7 @@ export const results = [
       // "Rebounds leader: Tom Davis (12)",
     ],
   },
-    {
+  {
     id: 3,
     sport: "Basketball",
     team1: "DR Congo",
@@ -53,7 +89,7 @@ export const results = [
       // "Rebounds leader: Tom Davis (12)",
     ],
   },
-      {
+  {
     id: 4,
     sport: "Basketball",
     team1: "South Sudan",
@@ -71,7 +107,7 @@ export const results = [
       // "Rebounds leader: Tom Davis (12)",
     ],
   },
-        {
+  {
     id: 5,
     sport: "Basketball",
     team1: "DR Congo",
@@ -89,7 +125,7 @@ export const results = [
       // "Rebounds leader: Tom Davis (12)",
     ],
   },
-       {
+  {
     id: 4,
     sport: "Basketball",
     team1: "South Sudan",

@@ -1,15 +1,15 @@
 export const featuredMatches = [
-  {
-    id: 1,
-    team1: "Comoros",
-    team2: "Sudan",
-    team1Logo: "/comoros.png",
-    team2Logo: "/sudan.png",
-    date: "Tuesday, 3:30 PM",
-    venue: "ULK Stadium",
-    status: "Today",
-    league: "International",
-  },
+  // {
+  //   id: 1,
+  //   team1: "DR Congo",
+  //   team2: "Liberia",
+  //   team1Logo: "/congo.png",
+  //   team2Logo: "/liberia.png",
+  //   date: "Wednesday, 3:30 PM",
+  //   venue: "ULK Stadium",
+  //   status: "Today",
+  //   league: "International",
+  // },
   {
     id: 1,
     team1: "Liberia",

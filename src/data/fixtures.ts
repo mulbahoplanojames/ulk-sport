@@ -1,19 +1,19 @@
 export const fixtures = [
   // Football Fixtures
-  {
-    id: 1,
-    sport: "Football",
-    team1: "Comoros",
-    team2: "Sudan",
-    team1Logo: "/comoros.png",
-    team2Logo: "/sudan.png",
-    date: "Tuesday, July 08, 2025",
-    time: "3:30",
-    venue: "Main Stadium",
-    score: "",
-    status: "upcoming",
-    league: "International",
-  },
+  // {
+  //   id: 1,
+  //   sport: "Football",
+  //   team1: "Comoros",
+  //   team2: "Sudan",
+  //   team1Logo: "/comoros.png",
+  //   team2Logo: "/sudan.png",
+  //   date: "Tuesday, July 08, 2025",
+  //   time: "3:30",
+  //   venue: "Main Stadium",
+  //   score: "",
+  //   status: "upcoming",
+  //   league: "International",
+  // },
   {
     id: 2,
     sport: "Football",
