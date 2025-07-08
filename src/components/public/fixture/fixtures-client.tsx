@@ -125,7 +125,7 @@ export default function FixturesClient() {
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                       {/* Match Info */}
                       <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-2">
+                        <div className="flex items-center gap-2 mb-4">
                           <Badge variant="outline">{fixture.sport}</Badge>
                           <Badge variant="secondary">{fixture.league}</Badge>
                           {fixture.status === "live" && (
@@ -140,13 +140,15 @@ export default function FixturesClient() {
                         </div>
 
                         <div className="flex items-center justify-between mb-4">
-                          <div className="flex items-center space-x-3">
-                            <Image
-                              src={fixture.team1Logo || "/placeholder.svg"}
-                              alt={fixture.team1}
-                              width={60}
-                              height={60}
-                            />
+                          <div className="flex items-center md:flex-row flex-col gap-y-3 space-x-3">
+                            <div className="relative w-16 h-8 overflow-hidden">
+                              <Image
+                                src={fixture.team1Logo || "/placeholder.svg"}
+                                alt={fixture.team1}
+                                fill
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
                             <span className="font-semibold text-lg">
                               {fixture.team1}
                             </span>
@@ -164,16 +166,18 @@ export default function FixturesClient() {
                             )}
                           </div>
 
-                          <div className="flex items-center space-x-3">
-                            <span className="font-semibold text-lg">
+                          <div className="flex items-center  md:flex-row flex-col gap-y-3  space-x-3">
+                            <span className="font-semibold text-lg md:order-1 order-2 md:pl-3 pl-0">
                               {fixture.team2}
                             </span>
-                            <Image
-                              src={fixture.team2Logo || "/placeholder.svg"}
-                              alt={fixture.team2}
-                              width={60}
-                              height={60}
-                            />
+                            <div className="relative w-16 h-8 overflow-hidden">
+                              <Image
+                                src={fixture.team2Logo || "/placeholder.svg"}
+                                alt={fixture.team2}
+                                fill
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
                           </div>
                         </div>
 
