@@ -24,7 +24,7 @@ export const fixtures = [
     date: "Wednesday, July 9, 2025",
     time: "3:30",
     venue: "Main Stadium",
-    score: "",
+    score: "0-4",
     status: "upcoming",
     league: "International",
   },
