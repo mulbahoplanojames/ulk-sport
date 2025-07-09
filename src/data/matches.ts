@@ -19,7 +19,7 @@ export const featuredMatches = [
     date: "Wednesday, 3:30 PM",
     venue: "ULK Stadium",
     status: "Playing Now",
-    score: “4-0”
+    score: "5-0"
     league: "International",
   },
   {
@@ -31,7 +31,7 @@ export const featuredMatches = [
     date: "Thursday, 3:30 PM",
     venue: "ULK Sports Complex",
     status: "Upcoming",
-    score: "",
+    score: "-",
     league: "International",
   },
   // {
@@ -43,7 +43,7 @@ export const featuredMatches = [
   //   date: "Today, 3:00 PM",
   //   venue: "Main Stadium",
   //   status: "Live",
-  //   score: "2-1",
+    //score: "2-1",
   //   league: "Inter-Departmental",
   // },
 ];
