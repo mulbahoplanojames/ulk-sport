@@ -18,7 +18,8 @@ export const featuredMatches = [
     team2Logo: "/congo.png",
     date: "Wednesday, 3:30 PM",
     venue: "ULK Stadium",
-    status: "Upcoming",
+    status: "Playing Now",
+    score: “4-0”
     league: "International",
   },
   {
@@ -30,7 +31,7 @@ export const featuredMatches = [
     date: "Thursday, 3:30 PM",
     venue: "ULK Sports Complex",
     status: "Upcoming",
-    score: "vs",
+    score: "",
     league: "International",
   },
   // {
