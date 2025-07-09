@@ -19,7 +19,7 @@ export const featuredMatches = [
     date: "Wednesday, 3:30 PM",
     venue: "ULK Stadium",
     status: "Playing Now",
-    score: "5-0"
+    score: "5-0",
     league: "International",
   },
   {
