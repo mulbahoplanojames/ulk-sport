@@ -30,12 +30,13 @@ import Image from "next/image";
 import { fixtures } from "@/data/fixtures";
 import { results } from "@/data/results";
 import Hero from "../hero";
+import { Fixture } from "@/type/types";
 
 export default function FixturesClient() {
   const [selectedSport, setSelectedSport] = useState("all");
   const [selectedLeague, setSelectedLeague] = useState("all");
 
-  const filteredFixtures = fixtures.filter((fixture) => {
+  const filteredFixtures = fixtures.filter((fixture: Fixture) => {
     const sportMatch =
       selectedSport === "all" || fixture.sport.toLowerCase() === selectedSport;
     const leagueMatch =
@@ -119,7 +120,7 @@ export default function FixturesClient() {
             </div>
 
             <div className="space-y-4">
-              {filteredFixtures.map((fixture) => (
+              {filteredFixtures.map((fixture: Fixture) => (
                 <Card key={fixture.id} className="overflow-hidden">
                   <CardContent className="p-6">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -155,9 +156,9 @@ export default function FixturesClient() {
                           </div>
 
                           <div className="text-center px-4">
-                            {fixture.status === "live" ? (
+                            {fixture?.status === "live" ? (
                               <div className="text-2xl font-bold text-red-600">
-                                {fixture.score}
+                                {fixture?.score}
                               </div>
                             ) : (
                               <div className="text-2xl font-bold text-muted-foreground">

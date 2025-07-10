@@ -42,10 +42,10 @@ export default function InternationalFootballLeagueTable() {
               ?.sort((a, b) =>
                 b.points !== a.points
                   ? b.points - a.points
-                  : a.position - b.position
+                  : a.position - b.position,
               )
               ?.map((team, index: number) => (
-                <TableRow key={team.position}>
+                <TableRow key={index}>
                   <TableCell className="font-medium">{index + 1}</TableCell>
                   <TableCell>
                     <div>
@@ -77,8 +77,8 @@ export default function InternationalFootballLeagueTable() {
                             result === "W"
                               ? "default"
                               : result === "D"
-                              ? "secondary"
-                              : "destructive"
+                                ? "secondary"
+                                : "destructive"
                           }
                           className="w-6 h-6 p-0 text-xs"
                         >
