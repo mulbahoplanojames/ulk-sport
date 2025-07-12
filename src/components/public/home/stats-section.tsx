@@ -4,8 +4,8 @@ import { Calendar, TrendingUp, Trophy, Users } from "lucide-react";
 const stats = [
   { label: "Active Teams", value: "8", icon: Trophy },
   { label: "Registered Players", value: "60", icon: Users },
-  { label: "Matches Played", value: "1", icon: Calendar },
-  { label: "Goals Scored", value: "0", icon: TrendingUp },
+  { label: "Matches Played", value: "6+", icon: Calendar },
+  { label: "Goals Scored", value: "15+", icon: TrendingUp },
 ];
 
 export default function StatsSection() {

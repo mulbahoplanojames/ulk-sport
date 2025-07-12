@@ -1,5 +1,23 @@
 export const results = [
   {
+    id: 3,
+    sport: "Football",
+    team1: "Comoros",
+    team2: "Sudan",
+    team1Logo: "/comoros.png",
+    team2Logo: "/sudan.png",
+    date: "Tuesday, July 11, 2025",
+    venue: "ULK Stadium",
+    score: "2-4",
+    status: "completed",
+    league: "International",
+    highlights: [
+      // "Goal by John Doe (15')",
+      // "Goal by Jane Smith (32')",
+      // "Goal by Mike Johnson (67')",
+    ],
+  },
+  {
     id: 1,
     sport: "Football",
     team1: "Rwanda",
@@ -81,6 +99,24 @@ export const results = [
     date: "July 10, 2025",
     venue: "ULK Sports Complex",
     score: "36-81",
+    status: "completed",
+    league: "International",
+    highlights: [
+      // "Top scorer: South Sudan shooter (24 pts)",
+      // "Best assists: South Sudan (8)",
+      // "Rebounds leader: Tom Davis (12)",
+    ],
+  },
+  {
+    id: 12,
+    sport: "Basketball",
+    team1: "Liberia",
+    team2: "Rwanda",
+    team1Logo: "/liberia.png",
+    team2Logo: "/rwanda.png",
+    date: "July 11, 2025",
+    venue: "ULK Sports Complex",
+    score: "51-54",
     status: "completed",
     league: "International",
     highlights: [

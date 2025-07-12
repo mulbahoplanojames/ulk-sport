@@ -1,6 +1,6 @@
 export const topScorers = [
   {
-    name: "Oplano James Mulbah",
+    name: "Coolest",
     team: "Liberia",
     goals: 2,
     photo: "/placeholder.svg?height=40&width=40",
