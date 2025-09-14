@@ -1,7 +1,5 @@
 import FixturesClient from "@/components/public/fixture/fixtures-client";
 import { auth } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
-import { betterAuth } from "better-auth";
 import { Metadata } from "next";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
