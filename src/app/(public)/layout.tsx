@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
+import Navbar from "@/layout/public/navbar";
+import Footer from "@/layout/public/footer";
 
 export const metadata: Metadata = {
   title: "ULK Sports League Management System",
@@ -14,5 +16,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main className={` antialiased`}>{children}</main>;
+  return (
+    <div className={` antialiased flex flex-col min-h-screen`}>
+      <Navbar />
+      <main className="flex-1">{children}</main>
+      <Footer />
+    </div>
+  );
 }
